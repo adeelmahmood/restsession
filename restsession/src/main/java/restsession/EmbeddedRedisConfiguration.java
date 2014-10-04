@@ -11,7 +11,7 @@ import redis.embedded.RedisServer;
 @Configuration
 public class EmbeddedRedisConfiguration {
 
-    @Bean
+    @Bean 
     public RedisServerBean redisServer() {
         return new RedisServerBean();
     }
